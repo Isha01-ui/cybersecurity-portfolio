@@ -1,0 +1,31 @@
+# ICS Protocols
+
+## Overview
+- ICS protocols are used for communication between PLCs, SCADA systems, RTUs, and HMIs.
+- Understanding them is crucial for both operation and security analysis.
+
+## Common Protocols
+
+### 1. Modbus
+- Simple protocol for PLC communication.
+- Often **unencrypted**, making it vulnerable to sniffing and injection.
+- Types: Modbus RTU (serial), Modbus TCP (Ethernet).
+
+### 2. S7 (Siemens)
+- Proprietary Siemens protocol used in PLCs.
+- Vulnerabilities include weak authentication and protocol flaws.
+- Used in many industrial environments.
+
+### 3. DNP3 (Distributed Network Protocol)
+- Used in electrical and water utilities.
+- Supports secure authentication in newer versions.
+- Older versions vulnerable to replay attacks.
+
+### 4. OPC (OLE for Process Control)
+- Standard for data exchange in industrial automation.
+- Can use OPC Classic (COM-based) or OPC UA (modern, secure).
+
+## Security Considerations
+- Many ICS protocols are **not encrypted** by default.
+- Strong authentication and network segmentation are critical.
+- Monitoring traffic for anomalies can prevent attacks.

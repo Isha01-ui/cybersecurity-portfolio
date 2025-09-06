@@ -1,0 +1,29 @@
+# ICS Defenses
+
+## Overview
+- Securing Industrial Control Systems is critical to prevent disruptions, physical damage, and data theft.
+- Defense strategies focus on **prevention, detection, and response**.
+
+## Network Security
+- **Segmentation**: separate ICS networks from corporate networks.  
+- **Firewalls & Gateways**: control traffic between zones.  
+- **Monitoring**: detect unusual traffic patterns and anomalies.
+
+## Access Control
+- Strong authentication for PLCs, HMIs, and SCADA servers.  
+- Role-based access to restrict user permissions.  
+- Avoid default credentials.
+
+## Device Hardening
+- Regular firmware and software updates.  
+- Disable unnecessary services and ports.  
+- Enable logging and audit trails.
+
+## Anomaly Detection
+- Monitor control logic and sensor readings for unusual behavior.  
+- Set alerts for unexpected commands or network traffic.
+
+## Incident Response
+- Develop response plans for ICS security incidents.  
+- Include backup systems and safe shutdown procedures.  
+- Conduct periodic drills and post-incident analysis.

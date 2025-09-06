@@ -1,0 +1,17 @@
+# Traffic Analysis
+
+## Overview
+- Traffic analysis studies patterns in network traffic to **infer activity**, even if the content is encrypted.  
+
+## Key Concepts
+- **Packet size**: The size of transmitted packets can reveal types of pages or actions.  
+- **Timing**: Time intervals between packets can show user behavior.  
+- **Direction**: Incoming vs outgoing packets provide clues about communication.  
+
+## Use Cases
+- Identify visited websites without decrypting traffic.  
+- Detect anomalies or malicious activity on a network.
+
+## Python Examples
+- Use `scapy` to capture packet sizes and timing.  
+- Analyze metadata instead of content.  

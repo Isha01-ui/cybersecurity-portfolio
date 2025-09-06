@@ -1,0 +1,36 @@
+# ICS Attacks
+
+## Overview
+- ICS attacks target industrial processes, often with the goal of disrupting operations, causing physical damage, or stealing sensitive data.
+- Understanding attack methods helps in designing defenses.
+
+## Common Attack Types
+
+### 1. Replay Attacks
+- Attacker captures valid messages and retransmits them.
+- Can cause repeated actions or bypass authentication.
+- Example: repeating control commands to a PLC.
+
+### 2. Control Logic Injection
+- Malicious modification of PLC programs or ladder logic.
+- Can cause unsafe system behavior or physical damage.
+- Example: altering a valve control sequence.
+
+### 3. Spoofing
+- Pretending to be a legitimate PLC, HMI, or sensor.
+- Can manipulate system readings or commands.
+
+### 4. Denial of Service (DoS)
+- Flooding the network or device with traffic to stop operations.
+- Common in older ICS protocols without built-in protections.
+
+### 5. Case Studies
+- **Stuxnet (2010)**: targeted Iranian nuclear centrifuges via PLCs, modifying control logic.
+- **Ukraine Power Grid (2015)**: attackers caused a blackout by remotely controlling ICS components.
+- **Triton/Trisis (2017)**: malware targeting safety systems in a chemical plant.
+
+## Defensive Measures
+- Network segmentation and monitoring
+- Regular patching and secure configuration
+- Authentication and access control for PLCs and SCADA systems
+- Incident response planning
